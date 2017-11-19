@@ -138,7 +138,6 @@ retrieve any cookie while making requests with the client::
     $expires    = $cookie->getExpiresTime();
     $path       = $cookie->getPath();
     $domain     = $cookie->getDomain();
-    $sameSite   = $cookie->getSameSite();
 
 .. note::
 
